@@ -15,5 +15,4 @@ Repositorio público del Trabajo Terminal con numero de registro: TT-2024-A039
 - Moreno Galvan Elizabeth
 
 ---
-
-Compilado con Python 3.11 en openSUSE Tumbleweed y Windows 11
+Código generado y ejecutado con Python 3.11 en openSUSE Tumbleweed y Windows 11
