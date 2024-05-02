@@ -30,7 +30,7 @@ p1 = gh["Primero"] + sum(gh["Tercero"]) + sum(gh["Quinto"])
 p2 = gh["Segundo"] + sum(gh["Cuarto"]) + sum(gh["Sexto"])
 directorio = ruta+"/Salidas/"+fechaH+"-"+gh["Turno"]
 
-if p1 != 0 or p2 != 0:
+if (p1 != 0 and (gh["Periodo"] == 1)) or (p2 != 0 and  (gh["Periodo"] == 2)):
     if not os.path.exists(directorio):
         os.mkdir(directorio)
 

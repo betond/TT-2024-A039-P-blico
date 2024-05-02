@@ -10,11 +10,6 @@ from restricciones import *
 #****************************************************
 PobGen = []
 salones = []
-
-def ceros():
-    global PobGen
-    PobGen = []
-
 #****************************************************
 identificadores = 0
 # | Id | Salón | Docente | UA | L | M | X | J | V |
